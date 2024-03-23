@@ -1,4 +1,4 @@
-
+  
 .expense-item {
   display: flex; 
   justify-content: space-between; 
@@ -48,7 +48,7 @@
 margin-right: 50rem;
 }
 .expense-amount{
-  margin-right: 3rem;
+  margin-right: 10px;
   border: 2px solid white;
   padding: 12px 20px 12px 20px;
   border-radius: 0.5rem;
@@ -86,4 +86,41 @@ margin-right: 50rem;
   border-radius: 0.5rem;
   padding: 1rem;
 }
+.expense-item-description{
+  display: flex;
+ 
+}
+
+/* ExpenseForm */
+.form-group{
+  display: flex;
   
+}
+
+.form-group-row{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.form-group-row input{
+  padding: 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.btn{
+ padding: 0.5rem;
+ color: white;
+ font-weight: bold;
+ margin-left: 16rem;
+  background-color: blue;
+}
+
+/* chat.js */
+.month{
+  color: white;
+  margin-right: 1rem;
+}
+.chartBar{
+ 
+  background-color: #fff;
+  width: 10%;
+}
