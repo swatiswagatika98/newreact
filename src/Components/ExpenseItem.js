@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './ExpenseItem.css';
 import ExpenseForm from './Expenseform';
-import Chart from './Chart';
+import Chart from '/Chart';
 
 function ExpenseItem({ expenses }) {
 
